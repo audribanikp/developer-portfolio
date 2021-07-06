@@ -18,25 +18,48 @@ h1{
     color: white;
     font-weight: 700;
 }
-section{
+.flexible{
     display: flex;
     padding-bottom: 10%;
 }
 .half-width{
-    padding-left: 5%;
+    padding-left: 6%;
     padding-right: 3%;
     width: 50%;
 }
 .half-width img{
-    width: 60%;
+    width: 65%;
 }
 .dream-big{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: top right;
     background-size: 60px;
+}
+.experience-area{
+    padding-left: 5%;
+    padding-right: 3%;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-size: 70px;
+}
+.nautanki{
+    padding-left: 5%;
+    padding-right: 3%;
+    margin-right: 5%;
+    border-radius: 10px;
+    box-shadow: 10px 40px 50px gray;
+    border-left: 7px solid;
+}
+#ex1{
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+#ex2{
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+}
     
-}
-p{
-    text-align: left;
-}
